@@ -186,7 +186,7 @@ Montecarlo can be useful in this situation.
 Here is the code with which we generated the figures above:
 
 {% highlight python %}
-include_absolute /assets/posts/structure-factor/ssf.py
+{% include_relative ssf.py %}
 {% endhighlight %}
 
 [^1]: Egami T, Billinge, S. *Underneath the Bragg Peaks: Structural
