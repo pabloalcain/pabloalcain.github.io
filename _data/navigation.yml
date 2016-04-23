@@ -1,0 +1,17 @@
+# example navigation
+# main links links
+main:
+  - title: "Physics"
+    url: /physics/
+
+  - title: "HPC"
+    url: /hpc/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Posts"
+    url: /year-archive/
+
+  - title: "About"
+    url: /about/

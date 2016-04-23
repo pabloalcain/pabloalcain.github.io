@@ -1,0 +1,17 @@
+---
+layout: archive
+permalink: /
+author_profile: true
+---
+
+{% include feature_row id="intro" type="center" %}
+
+{% include feature_row %}
+
+{% include base_path %}
+
+<h3>Recent Posts</h3>
+
+{% for post in paginator.posts %}
+  {% include archive-single.html %}
+{% endfor %}
