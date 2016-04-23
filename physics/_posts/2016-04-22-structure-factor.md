@@ -91,7 +91,7 @@ through the boundaries. We calculate for a very simple test case (a
 simple cubic 3D lattice with 4x4x4=64 atoms) the structure factor
 with that prescription
     
-![Structure Factor calculated with PBC]({% asset_path ssf_pbc.png %})
+![Structure Factor calculated with PBC](/assets/posts/structure-factor/ssf_pbc.png)
 
 A surprising result! We insisted several times that the structure
 factor should be always positive, yet we get, using *the very same
@@ -106,7 +106,7 @@ periodic boundary conditions? We have a comparision of the structure
 factor with and without boundary conditions (i. e., with the 64 atoms
 in a void):
 
-![Comparison of structure factor with and without PBC]({% asset_path ssf_comp.png %})
+![Comparison of structure factor with and without PBC](/assets/posts/structure-factor/ssf_comp.png)
 
 This shows that the structure factor, when we use its definition
 *without minimum image convention*, is (as expected) always
