@@ -1,6 +1,7 @@
 ---
 title: "Python and C interaction: Part I - An Introduction"
-category: hpc python ctypes python-c
+category: hpc 
+tags: [python, ctypes, python-c]
 ---
 
 Too much is said of
