@@ -1,4 +1,4 @@
-# file: geometry.py
+# file: geometry_minimal.py
 
 import ctypes as C
 
