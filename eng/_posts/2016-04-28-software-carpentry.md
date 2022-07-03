@@ -1,6 +1,6 @@
 ---
 title: "WTPC: A Case for Software Carpentry"
-category: hpc
+category: eng
 ---
 
 We have recently (from March 7th to 18th) held our first Workshop in

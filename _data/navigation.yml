@@ -1,14 +1,14 @@
 # example navigation
 # main links links
 main:
+  - title: "Data Science"
+    url: /ds/
+
+  - title: "Engineering"
+    url: /eng/
+
   - title: "Physics"
     url: /physics/
-
-  - title: "HPC"
-    url: /hpc/
-
-  - title: "Publications"
-    url: /publications/
 
   - title: "Posts"
     url: /year-archive/

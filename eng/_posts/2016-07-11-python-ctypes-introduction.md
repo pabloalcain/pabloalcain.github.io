@@ -1,6 +1,6 @@
 ---
 title: "Python and C interaction: Part I - An Introduction"
-category: hpc 
+category: eng
 tags: [python, ctypes, python-c]
 ---
 

@@ -11,7 +11,7 @@ title                    : "No pun intended"
 title_separator          : "-"
 name                     : &name "Pablo Alcain"
 description              : &description "Yet another nerd's blog."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://blog.pabloalcain.ar 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -63,7 +63,7 @@ google_ad_slot           :
 author:
   name             : *name
   avatar           : "photo.png"
-  bio              : "A PhD student in Physics focused on HPC."
+  bio              : "|Science〉+ |Engineering〉\n Unnormalized Wavefunction"
   location         : "Buenos Aires, Argentina"
   email            : "pabloalcain@gmail.com"
   uri              :
@@ -78,7 +78,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         :
+  linkedin         : "pabloalcain"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
