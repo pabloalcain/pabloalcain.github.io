@@ -49,10 +49,7 @@ social:
   links: # An array of links to social media profiles
 
 # Analytics
-analytics:
-  provider               : "google" # false (default), "google", "google-universal", "custom"
-  google:
-    tracking_id          : UA-77158220-1
+google_analytics: G-76KYV0HTCS
 
 # Google AdSense
 google_ad_client         :
