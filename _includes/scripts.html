@@ -1,4 +1,6 @@
 <script src="{{ base_path }}/assets/js/main.min.js"></script>
 
+{% if site.google_analytics and jekyll.environment == 'production' %}
 {% include analytics.html %}
+{% endif %}
 {% include /comments-providers/scripts.html %}
