@@ -81,12 +81,15 @@ ve así:
   src="{{site.url}}/assets/posts/no-al-clickbait/respuesta_ambito.png"
   alt="Dos tuits de Te Ahorro Un Click. Primer tuit: Tras el triunfo en los Globos de Oro, la película argentina Argentina, 1985 busca repetir la hazaña este domingo en los Critics' Choice Awards. Se emitirá en TNT y HBO Max desde las 21hs con comentarios de Ileana Rodríguez y Rafael Sarmiento. Segundo tuit: una encuesta por Sí o No preguntando si el tuit original es clickbait"
 />
-  <figcaption>Clickbait de Infobae</figcaption>
+  <figcaption>Clickbait de Ámbito</figcaption>
 </figure>
 
-Por ahora responde automáticamente a las cuentas de [Ambito](https://twitter.com/ambitocom),
-[Minuto Uno](https://twitter.com/minutounocom) e [Infobae](https://twitter.com/infobae). Pero es relativamente fácil
-agregar más.
+Por ahora responde automáticamente a las cuentas de [Ambito](https://twitter.com/ambitocom) y
+[Minuto Uno](https://twitter.com/minutounocom). Para [Infobae](https://twitter.com/infobae) hay que etiquetar al bot
+en las replies para que la resuma. No se puede hacer automáticamente porque tuitean mucho **mucho** y termina siendo
+muy costoso. Si bien es relativamente fácil agregar más fuentes, también es cierto que los medios pueden usar algunas
+estrategias para complicar la solución de este lado o incluso encarecerla. En general, el bot es más una prueba de
+concepto que un anti clickbait a prueba de balas.
 
 Ojo, no es esto un canto a la tecnología. Fueron los propios desarrollos tecnológicos los que generaron los incentivos
 para esta situación actual, de clickbait insoportable. Pero a veces hay alguna manera de usar algunas herramientas de la
