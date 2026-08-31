@@ -3,7 +3,7 @@ title: "You don't like Bayesian Statistics, you like Modeling"
 category: ds
 ---
 
-I'm not saying that you _dislike_ Bayesian Statistics (disclaimer: I like it), I'm saying that many (not all) of the niceties that appear in Bayesian Statistics are actually in parametric statistics. Let us take, for example, the simple linear regression. You can model it in this classical fashion:
+I'm not saying that you _dislike_ Bayesian Statistics (disclaimer: I like it), I'm saying that many (not all) of the niceties that appear in Bayesian Statistics are actually in parametric statistics. To illustrate this, we will go through some well known results in the simple linear regression. You can model it in this classical fashion:
 
 $$y_i = \beta \cdot x_i + \alpha + \varepsilon_i$$
 
@@ -50,9 +50,9 @@ returning again the OLS estimator.
 
 After all this, we got to the same result. Even further, the OLS estimator is the BLUE under conditions much less strict than the one we used to find the MLE in this case (remember, we've only shown that the results match when the generation process is normally distributed). Staying in the realm of frequentist statistics, have we achieved anything?
 
-I think that we have gained a lot more interpretation of the problem. And, although this cannot be seen directly in the simple linear regression model, the key is playing with the estimators. The [Ridge regression](https://en.wikipedia.org/wiki/Ridge_regression) or Tikhonov regularisation is usually seen as a penalty term in the OLS. Instead of minimising $$C = \sum_{i=1}{n}(y_i - \beta x_i - \alpha)^2$$, you minimise  $$C' = \sum_{i=1}{n}(y_i - \beta x_i - \alpha)^2 + \lambda \beta^2$$. This new term will penalise large $\beta$ and will therefore have smaller estimates than the OLS. The goal is that, although these estimators will be biased, they can compensate the overal error by [reducing variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
+I think that we have gained a lot more interpretation of the problem. And, although this cannot be seen directly in the simple linear regression model, the key is playing with the estimators. The [Ridge regression](https://en.wikipedia.org/wiki/Ridge_regression) or Tikhonov regularisation is usually seen as a penalty term in the OLS. Instead of minimising $$C = \sum_{i=1}{n}(y_i - \beta x_i - \alpha)^2$$, you minimise  $$C' = \sum_{i=1}{n}(y_i - \beta x_i - \alpha)^2 + \lambda \beta^2$$. This new term will penalise large $$\beta$$ and will therefore have smaller estimates than the OLS. The goal is that, although these estimators will be biased, they can compensate the overal error by [reducing variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff).
 
-This regression is usually explained in a conceptually very crisp way in the Bayesian framework through the [usage of priors are regularisers](https://en.wikipedia.org/wiki/Ridge_regression#Bayesian_interpretation). In the frequentist framework we could say that instead of using the Maximum Likelihood Estimator we are using an estimator of a modified likelihood $$ \mathcal{L}' = \mathcal{L}(\theta) \cdot \text{exp}(-C * \beta^2) $$.
+This regression is usually explained in a conceptually crisp way in the Bayesian framework through the [usage of priors are regularisers](https://en.wikipedia.org/wiki/Ridge_regression#Bayesian_interpretation). In the frequentist framework we could say that instead of using the Maximum Likelihood Estimator we are using an estimator of a modified likelihood $$ \mathcal{L}' = \mathcal{L}(\theta) \cdot \text{exp}(-C \cdot \beta^2) $$.
 
 ## The value in modeling
 
