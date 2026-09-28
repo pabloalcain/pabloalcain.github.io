@@ -3,7 +3,7 @@ title: "Índice de Confianza en el Gobierno - Cómo no comunicar en estadística
 category: varios
 ---
 
-El mes pasado el gobierno festejó que el Índice de Confianza al Gobierno había subido 6.4% comparado con el mes anterior.
+El mes pasado el gobierno festejó que el Índice de Confianza en el Gobierno había subido 6.4% comparado con el mes anterior.
 Este mes probablemente se lamentará de que el mismo índice bajó 5.9%.
 Lo más probable es que ni el mes pasado subiera ni este bajara, sino que sean todas fluctuaciones estadísticas sobre una tendencia a la baja sostenida desde principios de año.
 
