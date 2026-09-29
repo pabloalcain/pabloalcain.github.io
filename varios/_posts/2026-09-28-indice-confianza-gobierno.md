@@ -97,7 +97,7 @@ No me voy a poner a especular por qué.
 
 - Habría que ver cuán correlacionados están los intervalos de confianza mes a mes, para poder hacer la comparación estadística más precisamente. Por la descripción, parece que están descorrelacionados y cada vez es un muestreo estadístico nuevo.
 - Ni me quiero imaginar el intervalo de confianza que hay cuando esto es medido separando por género. Debe ser muy difícil sacar conclusiones mes a mes de ahí.
-- Éste análisis es muy crudo, lo hice rápido cuando volví del trabajo. Así que espero que perdonen cualquier desliz y lo entiendan simplemente como una reflexión sobre la comunicación y una crítica constructiva.
+- Este análisis es muy crudo, lo hice rápido cuando volví del trabajo. Así que espero que perdonen cualquier desliz y lo entiendan simplemente como una reflexión sobre la comunicación y una crítica constructiva.
 
 
 [^1]: A riesgo de robarles frases a otras disciplinas, *es más complejo*. Espero que esta explicación sea óptima para los pocos caracteres que lleva.
